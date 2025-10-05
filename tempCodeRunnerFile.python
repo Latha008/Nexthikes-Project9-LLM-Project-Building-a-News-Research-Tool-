@@ -1,0 +1,5 @@
+import os
+from langchain.prompts import PromptTemplate
+from langchain.chains import LLMChain
+from newsapi import NewsApiClient
+from dotenv import load_dotenv
